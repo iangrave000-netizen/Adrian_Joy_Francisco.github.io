@@ -59,33 +59,4 @@
 </head>
 <body>
 
-    <header>
-        <h1>My Awesome Website</h1>
-    </header>
-
-    <nav>
-        <a href="#">Home</a> |
-        <a href="#">About</a> |
-        <a href="#">Services</a> |
-        <a href="#">Contact</a>
-    </nav>
-
-    <div class="container">
-        <article>
-            <h2>Welcome to My Website</h2>
-            <p>This is a basic HTML template for creating websites. You can customize it as needed.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam id tincidunt tincidunt, elit mauris dictum quam, id aliquam lorem ipsum et.</p>
-        </article>
-
-        <aside>
-            <h3>Sidebar</h3>
-            <p>This is a sidebar with additional information.</p>
-        </aside>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
-
-</body>
-</html>
+   
