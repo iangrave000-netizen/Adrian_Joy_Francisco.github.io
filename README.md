@@ -1,62 +1,51 @@
+
+   
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            color: #fff;
-            padding: 0.5em 0;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0 1em;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-            background-color: #fff;
-            overflow: hidden;
-        }
-        article {
-            float: left;
-            width: 70%;
-        }
-        aside {
-            float: right;
-            width: 30%;
-            background-color: #f4f4f4;
-            padding: 10px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-   
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#links">Links</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m a web enthusiast who loves creating clean and simple websites. This is a lightweight layout with just the essentials.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript Basics</li>
+            <li>Responsive Design</li>
+            <li>Graphic Editing</li>
+        </ul>
+    </section>
+
+    <section id="links">
+        <h2>Links</h2>
+        <ul>
+            <li><a href="#" target="_blank">GitHub</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">Portfolio</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+
+</body>
+</html>
